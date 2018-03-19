@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(i);
                 }else{
                     Toast.makeText(MainActivity.this, "error "+nIdNumber.getText().toString() +" - "+ salaryNo.getText().toString(), Toast.LENGTH_SHORT).show();
-
+                    Intent i = new Intent(MainActivity.this, CustomerActivity.class);
+                    startActivity(i);
                 }
 
             }

@@ -16,8 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CustomerActivity"
-            android:label="Customer Info List"></activity>
+        <activity
+            android:name=".CustomerActivity"
+            android:label="Customer Info List" />
+        <activity android:name=".CDRActivity"
+            android:label="Custemor dist return qty"></activity>
     </application>
 
 </manifest>
