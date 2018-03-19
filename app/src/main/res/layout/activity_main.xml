@@ -5,29 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FFFFFF"
     android:padding="40dp"
     tools:context="com.example.azain.wcdrapp.wcdrapp.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
         android:src="@drawable/owa_text_blue"/>
-    <EditText
-        android:id="@+id/nid_number"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="NID NUMBER"
-        android:inputType="number"/>
-    <EditText
-        android:id="@+id/salary_no"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="SALARY NO"
-        android:inputType="numberPassword"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:orientation="vertical"
+       android:layout_weight="1">
+       <EditText
+           android:id="@+id/nid_number"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:hint="NID NUMBER"
+           android:inputType="number"/>
+       <EditText
+           android:id="@+id/salary_no"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:hint="SALARY NO"
+           android:inputType="numberPassword"/>
+   </LinearLayout>
+
     <Button
         android:id="@+id/login_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"/>
+        android:text="Login"
+        android:textAppearance="?android:textAppearanceLarge"/>
 
 </LinearLayout>

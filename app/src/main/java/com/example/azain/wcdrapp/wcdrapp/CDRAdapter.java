@@ -47,10 +47,10 @@ public class CDRAdapter extends ArrayAdapter<CDR> {
         issueDate.setText(currentCDR.getIssueDate());
 
         TextView custQty = (TextView) listItemView.findViewById(R.id.cust_qty);
-        custQty.setText(((Integer) currentCDR.getCustQty()).toString());
+        custQty.setHint(((Integer) currentCDR.getCustQty()).toString());
 
         TextView rtnQty = (TextView) listItemView.findViewById(R.id.rtn_qty);
-        rtnQty.setText(((Integer) currentCDR.getRtnQty()).toString());
+        rtnQty.setHint(((Integer) currentCDR.getRtnQty()).toString());
 
         return  listItemView;
 

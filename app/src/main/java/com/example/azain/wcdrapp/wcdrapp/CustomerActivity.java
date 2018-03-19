@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -31,6 +32,9 @@ public class CustomerActivity extends AppCompatActivity {
                 Customer customer = customers.get(position);
                 Intent i = new Intent(CustomerActivity.this, CDRActivity.class);
                 startActivity(i);
+                Toast.makeText(CustomerActivity.this,customers.get(position).getCustCode()+" - "+
+                        customers.get(position).getNameAR()+" - "+
+                        customers.get(position).getNameEN(),Toast.LENGTH_LONG).show();
             }
         });
 
