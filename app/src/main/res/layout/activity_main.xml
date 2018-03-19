@@ -11,18 +11,21 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_background"/>
+        android:src="@drawable/owa_text_blue"/>
     <EditText
+        android:id="@+id/nid_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="NID NUMBER"
         android:inputType="number"/>
     <EditText
+        android:id="@+id/salary_no"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="SALARY NO"
         android:inputType="numberPassword"/>
     <Button
+        android:id="@+id/login_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"/>
