@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WCDRAPP.iml" filepath="$PROJECT_DIR$/WCDRAPP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/WCDRAPP.iml" filepath="$PROJECT_DIR$/.idea/WCDRAPP.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
